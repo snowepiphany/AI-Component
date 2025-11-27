@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Layout from "./components/Layout";
-import ButtonDoc from "./pages/ButtonDoc";
-import InputDoc from "./pages/InputDoc";
-import TableDoc from "./pages/TableDoc";
+import ButtonDoc from "./components/Button";
+import InputDoc from "./components/Input";
+import TableDoc from "./components/Table";
 
 const App: React.FC = () => {
   return (
