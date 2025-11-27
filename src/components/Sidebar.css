@@ -1,0 +1,66 @@
+.sidebar {
+  width: 260px;
+  height: 100vh;
+  background-color: #ffffff;
+  border-right: 1px solid #e5e6eb;
+  display: flex;
+  flex-direction: column;
+  transition: width 0.3s;
+  overflow: hidden;
+}
+
+.sidebar.collapsed {
+  width: 64px;
+}
+
+.sidebar-header {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  border-bottom: 1px solid #e5e6eb;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 600;
+  color: #165dff;
+  white-space: nowrap;
+}
+
+.sidebar-menu {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px 0;
+}
+
+.sidebar-menu :global(.arco-menu) {
+  background-color: transparent;
+  border-right: none;
+}
+
+.sidebar-menu :global(.arco-menu-item),
+.sidebar-menu :global(.arco-menu-inline-header) {
+  margin: 0 12px;
+  border-radius: 4px;
+}
+
+.sidebar-menu :global(.arco-menu-selected) {
+  background-color: #e8f3ff;
+  color: #165dff;
+}
+
+.sidebar-menu :global(.arco-menu-item:hover) {
+  background-color: #f2f3f5;
+}
+
+.sidebar-menu :global(.arco-menu-inline-header) {
+  padding-left: 20px;
+  font-weight: 500;
+  color: #4e5969;
+}
+
+.sidebar-menu :global(.arco-menu-item) {
+  padding-left: 48px;
+  color: #86909c;
+}
