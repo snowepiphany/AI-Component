@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Utility functions for AI Component",
   "main": "dist/index.js",
-  "module": "dist/index.esm.js",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
