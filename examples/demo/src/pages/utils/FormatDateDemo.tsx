@@ -129,6 +129,321 @@ formatDate(Date.now(), "YYYY年MM月DD日");
 // 输出: "2025年12月10日"`}
         </pre>
       </Card>
+
+      <Card title="API" style={{ marginTop: 24 }}>
+        <Title heading={4}>formatDate</Title>
+        <Paragraph type="secondary" style={{ marginTop: 8, marginBottom: 16 }}>
+          formatDate(date: Date | number, format?: string): string
+        </Paragraph>
+        <table style={{ width: "100%", borderCollapse: "collapse" }}>
+          <thead>
+            <tr style={{ backgroundColor: "#f7f8fa" }}>
+              <th
+                style={{
+                  padding: "12px",
+                  textAlign: "left",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                参数
+              </th>
+              <th
+                style={{
+                  padding: "12px",
+                  textAlign: "left",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                说明
+              </th>
+              <th
+                style={{
+                  padding: "12px",
+                  textAlign: "left",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                类型
+              </th>
+              <th
+                style={{
+                  padding: "12px",
+                  textAlign: "left",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                默认值
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>date</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                要格式化的日期
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>Date | number</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                -
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>format</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                日期格式
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>string</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>YYYY-MM-DD HH:mm:ss</code>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <Title heading={5} style={{ marginTop: 24 }}>
+          支持的格式标记
+        </Title>
+        <table
+          style={{ width: "100%", borderCollapse: "collapse", marginTop: 16 }}
+        >
+          <thead>
+            <tr style={{ backgroundColor: "#f7f8fa" }}>
+              <th
+                style={{
+                  padding: "12px",
+                  textAlign: "left",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                标记
+              </th>
+              <th
+                style={{
+                  padding: "12px",
+                  textAlign: "left",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                说明
+              </th>
+              <th
+                style={{
+                  padding: "12px",
+                  textAlign: "left",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                示例
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>YYYY</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                四位年份
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                2025
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>MM</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                两位月份
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                01-12
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>DD</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                两位日期
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                01-31
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>HH</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                两位小时（24小时制）
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                00-23
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>mm</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                两位分钟
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                00-59
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>ss</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                两位秒数
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                00-59
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </Card>
     </div>
   );
 }

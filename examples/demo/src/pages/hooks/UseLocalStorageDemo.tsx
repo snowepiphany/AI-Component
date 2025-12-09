@@ -65,6 +65,218 @@ function MyComponent() {
 }`}
         </pre>
       </Card>
+
+      <Card title="API" style={{ marginTop: 24 }}>
+        <Title heading={4}>useLocalStorage</Title>
+        <Paragraph type="secondary" style={{ marginTop: 8, marginBottom: 16 }}>
+          useLocalStorage(key: string, initialValue: T): [T, (value: T) =&gt;
+          void]
+        </Paragraph>
+        <table style={{ width: "100%", borderCollapse: "collapse" }}>
+          <thead>
+            <tr style={{ backgroundColor: "#f7f8fa" }}>
+              <th
+                style={{
+                  padding: "12px",
+                  textAlign: "left",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                参数
+              </th>
+              <th
+                style={{
+                  padding: "12px",
+                  textAlign: "left",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                说明
+              </th>
+              <th
+                style={{
+                  padding: "12px",
+                  textAlign: "left",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                类型
+              </th>
+              <th
+                style={{
+                  padding: "12px",
+                  textAlign: "left",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                默认值
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>key</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                localStorage 的键名
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>string</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                -
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>initialValue</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                初始值
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>T</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                -
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <Title heading={5} style={{ marginTop: 24 }}>
+          返回值
+        </Title>
+        <table
+          style={{ width: "100%", borderCollapse: "collapse", marginTop: 16 }}
+        >
+          <thead>
+            <tr style={{ backgroundColor: "#f7f8fa" }}>
+              <th
+                style={{
+                  padding: "12px",
+                  textAlign: "left",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                参数
+              </th>
+              <th
+                style={{
+                  padding: "12px",
+                  textAlign: "left",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                说明
+              </th>
+              <th
+                style={{
+                  padding: "12px",
+                  textAlign: "left",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                类型
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>[0]</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                当前存储的值
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>T</code>
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>[1]</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                更新值的函数
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>(value: T) =&gt; void</code>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </Card>
     </div>
   );
 }

@@ -84,6 +84,362 @@ export default function InputDemo() {
           />
         </Space>
       </Card>
+
+      <Card title="API" style={{ marginTop: 24 }}>
+        <Title heading={4}>InputProps</Title>
+        <table
+          style={{ width: "100%", borderCollapse: "collapse", marginTop: 16 }}
+        >
+          <thead>
+            <tr style={{ backgroundColor: "#f7f8fa" }}>
+              <th
+                style={{
+                  padding: "12px",
+                  textAlign: "left",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                参数
+              </th>
+              <th
+                style={{
+                  padding: "12px",
+                  textAlign: "left",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                说明
+              </th>
+              <th
+                style={{
+                  padding: "12px",
+                  textAlign: "left",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                类型
+              </th>
+              <th
+                style={{
+                  padding: "12px",
+                  textAlign: "left",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                默认值
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>size</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                输入框尺寸
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>mini | small | default | large</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>default</code>
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>status</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                输入框状态
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>warning | error</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                -
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>disabled</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                是否禁用
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>boolean</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>false</code>
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>readOnly</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                是否只读
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>boolean</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>false</code>
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>placeholder</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                占位符
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>string</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                -
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>prefix</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                前缀元素
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>ReactNode</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                -
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>suffix</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                后缀元素
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>ReactNode</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                -
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>value</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                输入框值
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>string</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                -
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>onChange</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                值变化时的回调
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>(value: string) =&gt; void</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                -
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </Card>
     </div>
   );
 }

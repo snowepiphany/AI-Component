@@ -120,6 +120,260 @@ export default function TableDemo() {
           </div>
         </Space>
       </Card>
+
+      <Card title="API" style={{ marginTop: 24 }}>
+        <Title heading={4}>TableProps</Title>
+        <table
+          style={{ width: "100%", borderCollapse: "collapse", marginTop: 16 }}
+        >
+          <thead>
+            <tr style={{ backgroundColor: "#f7f8fa" }}>
+              <th
+                style={{
+                  padding: "12px",
+                  textAlign: "left",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                参数
+              </th>
+              <th
+                style={{
+                  padding: "12px",
+                  textAlign: "left",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                说明
+              </th>
+              <th
+                style={{
+                  padding: "12px",
+                  textAlign: "left",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                类型
+              </th>
+              <th
+                style={{
+                  padding: "12px",
+                  textAlign: "left",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                默认值
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>columns</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                表格列配置
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>ColumnProps[]</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                -
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>data</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                表格数据
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>any[]</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                -
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>border</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                是否显示边框
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>boolean</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>true</code>
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>stripe</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                是否显示斑马纹
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>boolean</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>false</code>
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>size</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                表格尺寸
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>mini | small | default | large</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>default</code>
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>loading</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                是否加载中
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>boolean</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>false</code>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </Card>
     </div>
   );
 }

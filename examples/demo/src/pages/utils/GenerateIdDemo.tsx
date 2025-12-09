@@ -145,6 +145,106 @@ const users = [
 ];`}
         </pre>
       </Card>
+
+      <Card title="API" style={{ marginTop: 24 }}>
+        <Title heading={4}>generateId</Title>
+        <Paragraph type="secondary" style={{ marginTop: 8, marginBottom: 16 }}>
+          generateId(length?: number): string
+        </Paragraph>
+        <table style={{ width: "100%", borderCollapse: "collapse" }}>
+          <thead>
+            <tr style={{ backgroundColor: "#f7f8fa" }}>
+              <th
+                style={{
+                  padding: "12px",
+                  textAlign: "left",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                参数
+              </th>
+              <th
+                style={{
+                  padding: "12px",
+                  textAlign: "left",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                说明
+              </th>
+              <th
+                style={{
+                  padding: "12px",
+                  textAlign: "left",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                类型
+              </th>
+              <th
+                style={{
+                  padding: "12px",
+                  textAlign: "left",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                默认值
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>length</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                生成的 ID 长度
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>number</code>
+              </td>
+              <td
+                style={{
+                  padding: "12px",
+                  borderBottom: "1px solid var(--color-border)",
+                }}
+              >
+                <code>8</code>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <Title heading={5} style={{ marginTop: 24 }}>
+          返回值
+        </Title>
+        <Paragraph style={{ marginTop: 8 }}>
+          返回指定长度的随机字符串，由字母和数字组成。
+        </Paragraph>
+        <Title heading={5} style={{ marginTop: 24 }}>
+          特性
+        </Title>
+        <Space direction="vertical" style={{ marginTop: 8 }}>
+          <div>• 字符集包含大小写字母和数字（a-z, A-Z, 0-9）</div>
+          <div>• 使用加密安全的随机数生成器</div>
+          <div>• 适用于临时 ID、文件名等场景</div>
+          <div>• 不保证全局唯一性，建议配合时间戳使用</div>
+        </Space>
+      </Card>
     </div>
   );
 }
