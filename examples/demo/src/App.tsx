@@ -1,6 +1,11 @@
 import { useState } from "react";
 import { Layout, Menu } from "@arco-design/web-react";
-import { IconApps, IconCode, IconTool } from "@arco-design/web-react/icon";
+import {
+  IconApps,
+  IconCode,
+  IconTool,
+  IconRobot,
+} from "@arco-design/web-react/icon";
 import ButtonDemo from "./pages/ButtonDemo";
 import InputDemo from "./pages/InputDemo";
 import TableDemo from "./pages/TableDemo";
@@ -14,10 +19,14 @@ import UseDebounceDemo from "./pages/hooks/UseDebounceDemo";
 import FormatDateDemo from "./pages/utils/FormatDateDemo";
 import GenerateIdDemo from "./pages/utils/GenerateIdDemo";
 
+// X 包 AI 组件演示
+import ChatBoxDemo from "./pages/x/ChatBoxDemo";
+import PromptEditorDemo from "./pages/x/PromptEditorDemo";
+
 const { Header, Sider, Content } = Layout;
 const MenuItem = Menu.Item;
 
-type PackageType = "design" | "hooks" | "utils";
+type PackageType = "design" | "hooks" | "utils" | "x";
 type ComponentKey = string;
 
 interface MenuItem {
@@ -40,6 +49,14 @@ const packageMenus: Record<PackageType, MenuItem[]> = {
   utils: [
     { key: "formatDate", label: "formatDate", icon: <IconTool /> },
     { key: "generateId", label: "generateId", icon: <IconTool /> },
+  ],
+  x: [
+    { key: "chatBox", label: "ChatBox 对话框", icon: <IconRobot /> },
+    {
+      key: "promptEditor",
+      label: "PromptEditor 提示词编辑器",
+      icon: <IconRobot />,
+    },
   ],
 };
 
@@ -95,6 +112,18 @@ function App() {
       }
     }
 
+    // X 包 - AI 组件
+    if (currentPackage === "x") {
+      switch (selectedKey) {
+        case "chatBox":
+          return <ChatBoxDemo />;
+        case "promptEditor":
+          return <PromptEditorDemo />;
+        default:
+          return <ChatBoxDemo />;
+      }
+    }
+
     return <ButtonDemo />;
   };
 
@@ -136,6 +165,9 @@ function App() {
           <MenuItem key="utils">
             <IconTool /> 工具函数 (Utils)
           </MenuItem>
+          <MenuItem key="x">
+            <IconRobot /> AI 组件 (X)
+          </MenuItem>
         </Menu>
       </Header>
 
@@ -159,6 +191,7 @@ function App() {
             {currentPackage === "design" && "组件列表"}
             {currentPackage === "hooks" && "Hooks 列表"}
             {currentPackage === "utils" && "工具函数列表"}
+            {currentPackage === "x" && "AI 组件列表"}
           </div>
           <Menu
             selectedKeys={[selectedKey]}

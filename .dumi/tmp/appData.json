@@ -165,7 +165,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register"
     },
@@ -182,7 +182,7 @@
             0
           ]
         },
-        "register": 2
+        "register": 1
       },
       "enableBy": "register"
     },
@@ -229,7 +229,7 @@
             4
           ]
         },
-        "register": 10
+        "register": 8
       },
       "enableBy": "register"
     },
@@ -292,7 +292,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config"
     },
@@ -1161,7 +1161,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config"
     },
@@ -1191,7 +1191,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register"
     },
@@ -1204,7 +1204,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 41
+        "register": 39
       },
       "enableBy": "register"
     },
@@ -1217,7 +1217,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 20
+        "register": 16
       },
       "enableBy": "config"
     },
@@ -1264,7 +1264,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register"
     },
@@ -1277,7 +1277,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config"
     },
@@ -1290,7 +1290,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 16
+        "register": 15
       }
     },
     "./node_modules/.pnpm/@umijs+preset-umi@4.6.5_@types+node@20.5.1_@types+react@18.3.27_@types+webpack@5.28.5_@_048723642d0b3814a690664926c6903e/node_modules/@umijs/preset-umi/dist/features/mpa/mpa": {
@@ -1302,7 +1302,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config"
     },
@@ -1357,7 +1357,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       }
     },
     "./node_modules/.pnpm/@umijs+preset-umi@4.6.5_@types+node@20.5.1_@types+react@18.3.27_@types+webpack@5.28.5_@_048723642d0b3814a690664926c6903e/node_modules/@umijs/preset-umi/dist/features/polyfill/publicPathPolyfill": {
@@ -1369,7 +1369,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register"
     },
@@ -1382,7 +1382,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register"
     },
@@ -1395,7 +1395,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config"
     },
@@ -1524,7 +1524,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config"
     },
@@ -1537,7 +1537,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       }
     },
     "./node_modules/.pnpm/@umijs+preset-umi@4.6.5_@types+node@20.5.1_@types+react@18.3.27_@types+webpack@5.28.5_@_048723642d0b3814a690664926c6903e/node_modules/@umijs/preset-umi/dist/features/monorepo/redirect": {
@@ -1549,7 +1549,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 11
+        "register": 10
       },
       "enableBy": "config"
     },
@@ -1691,7 +1691,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 13
+        "register": 12
       }
     },
     "./node_modules/.pnpm/@umijs+preset-umi@4.6.5_@types+node@20.5.1_@types+react@18.3.27_@types+webpack@5.28.5_@_048723642d0b3814a690664926c6903e/node_modules/@umijs/preset-umi/dist/features/forget/forget": {
@@ -1742,7 +1742,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 16
+        "register": 17
       },
       "enableBy": "register"
     },
@@ -1755,7 +1755,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 15
+        "register": 14
       }
     },
     "./node_modules/.pnpm/@umijs+preset-umi@4.6.5_@types+node@20.5.1_@types+react@18.3.27_@types+webpack@5.28.5_@_048723642d0b3814a690664926c6903e/node_modules/@umijs/preset-umi/dist/commands/help": {
@@ -1780,7 +1780,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register"
     },
@@ -1793,7 +1793,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register"
     },
@@ -1988,7 +1988,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register"
     },
@@ -2001,7 +2001,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register"
     },
@@ -2157,10 +2157,10 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            288
+            278
           ]
         },
-        "register": 51
+        "register": 48
       }
     },
     "./node_modules/.pnpm/dumi@2.4.21_@babel+core@7.28.5_@swc+helpers@0.5.15_@types+node@20.5.1_@types+react@18.3_134955f638bd903cafd610c6d59e423b/node_modules/dumi/dist/features/derivative": {
@@ -2173,7 +2173,7 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            1,
+            0,
             0
           ],
           "modifyDefaultConfig": [
@@ -2210,7 +2210,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register"
     },
@@ -2227,7 +2227,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register"
     },
@@ -2246,7 +2246,7 @@
             0
           ]
         },
-        "register": 10
+        "register": 5
       },
       "enableBy": "register"
     },
@@ -2269,7 +2269,7 @@
             1
           ]
         },
-        "register": 2
+        "register": 1
       },
       "enableBy": "register"
     },
@@ -2286,7 +2286,7 @@
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register"
     },
@@ -2394,7 +2394,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       }
     },
     "./node_modules/.pnpm/dumi@2.4.21_@babel+core@7.28.5_@swc+helpers@0.5.15_@types+node@20.5.1_@types+react@18.3_134955f638bd903cafd610c6d59e423b/node_modules/dumi/dist/features/sitemap": {
@@ -2406,7 +2406,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 5
+        "register": 4
       }
     },
     "./node_modules/.pnpm/dumi@2.4.21_@babel+core@7.28.5_@swc+helpers@0.5.15_@types+node@20.5.1_@types+react@18.3_134955f638bd903cafd610c6d59e423b/node_modules/dumi/dist/features/html2sketch": {
@@ -2431,7 +2431,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register"
     }

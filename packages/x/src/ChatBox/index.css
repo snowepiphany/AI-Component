@@ -1,0 +1,19 @@
+.ai-chatbox {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.ai-chatbox-messages {
+  flex: 1;
+  padding: 16px;
+  overflow-y: auto;
+}
+
+.ai-chatbox-input {
+  padding: 16px;
+  border-top: 1px solid var(--color-border);
+}

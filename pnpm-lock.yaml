@@ -195,6 +195,9 @@ importers:
       '@ai-component/utils':
         specifier: workspace:*
         version: link:../../packages/utils
+      '@ai-component/x':
+        specifier: workspace:*
+        version: link:../../packages/x
       '@arco-design/web-react':
         specifier: ^2.66.5
         version: 2.66.8(@types/react@18.3.27)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -262,6 +265,30 @@ importers:
 
   packages/utils:
     devDependencies:
+      tsup:
+        specifier: ^8.0.1
+        version: 8.5.1(@microsoft/api-extractor@7.43.7(@types/node@24.10.2))(@swc/core@1.9.2(@swc/helpers@0.5.15))(jiti@2.6.1)(postcss@8.5.6)(typescript@5.9.3)
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/x:
+    devDependencies:
+      '@arco-design/web-react':
+        specifier: ^2.66.5
+        version: 2.66.8(@types/react@18.3.27)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@types/react':
+        specifier: ^18.3.11
+        version: 18.3.27
+      '@types/react-dom':
+        specifier: ^18.3.0
+        version: 18.3.7(@types/react@18.3.27)
+      react:
+        specifier: ^18.3.1
+        version: 18.3.1
+      react-dom:
+        specifier: ^18.3.1
+        version: 18.3.1(react@18.3.1)
       tsup:
         specifier: ^8.0.1
         version: 8.5.1(@microsoft/api-extractor@7.43.7(@types/node@24.10.2))(@swc/core@1.9.2(@swc/helpers@0.5.15))(jiti@2.6.1)(postcss@8.5.6)(typescript@5.9.3)

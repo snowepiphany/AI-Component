@@ -12,6 +12,7 @@
     "@ai-component/design": "workspace:*",
     "@ai-component/hooks": "workspace:*",
     "@ai-component/utils": "workspace:*",
+    "@ai-component/x": "workspace:*",
     "@arco-design/web-react": "^2.66.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
