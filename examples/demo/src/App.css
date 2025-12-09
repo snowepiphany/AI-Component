@@ -1,25 +1,12 @@
-.app {
-  min-height: 100vh;
-  background: #f7f8fa;
-  padding: 40px 20px;
+* {
+  box-sizing: border-box;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-  font-size: 36px;
-  font-weight: 600;
-  color: #1d2129;
-  margin-bottom: 8px;
-  text-align: center;
-}
-
-.subtitle {
-  font-size: 16px;
-  color: #86909c;
-  text-align: center;
-  margin-bottom: 40px;
+#root {
+  height: 100vh;
 }
